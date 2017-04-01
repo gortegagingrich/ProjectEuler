@@ -24,6 +24,7 @@ int main() {
 	printf("8\t\t%ld\n", problem8());
 	printf("9\t\t%d\n", problem9());
 	printf("10\t\t%ld\n", problem10());
+	printf("11\t\t%d\n", problem11());
 
 	return 0;
 }
