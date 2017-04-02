@@ -4,7 +4,8 @@ euler: main.o
 main.o: src/main.c \
 			problem1.o problem2.o problem3.o problem4.o\
  			problem5.o problem6.o problem7.o problem8.o\
- 			problem9.o problem10.o problem11.o
+ 			problem9.o problem10.o problem11.o problem12.o\
+ 			problem13.o problem14.o problem15.o
 	gcc -c src/main.c
 
 problem1.o: src/problem1.c
@@ -39,6 +40,18 @@ problem10.o: src/problem10.c
 
 problem11.o: src/problem11.c
 	gcc -c src/problem11.c
+
+problem12.o: src/problem12.c
+	gcc -c src/problem12.c
+
+problem13.o: src/problem13.c
+	gcc -c src/problem13.c
+
+problem14.o: src/problem14.c
+	gcc -c src/problem14.c
+
+problem15.o: src/problem15.c
+	gcc -c src/problem15.c
 
 clean:
 	rm euler *.o
