@@ -1,5 +1,4 @@
 #include "headers/problem15.h"
-#include <stdio.h>
 
 #define SIZE 20
 
